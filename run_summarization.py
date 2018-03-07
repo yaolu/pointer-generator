@@ -25,7 +25,7 @@ from collections import namedtuple
 from data import Vocab
 from batcher import Batcher
 from model import SummarizationModel
-from decode import BeamSearchDecoder
+from decode_trigram import BeamSearchDecoder
 import util
 from tensorflow.python import debug as tf_debug
 
